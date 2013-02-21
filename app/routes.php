@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function() {
-	return View::make('test', ['name' => 'TwigBridge']);
+	return View::make('test', array('name' => 'TwigBridge'));
 });
 
 Route::get('child', function() {
