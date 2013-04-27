@@ -13,6 +13,11 @@
 			"app/tests/TestCase.php"
 		]
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true
+	"scripts": {
+		"post-update-cmd": "php artisan optimize"
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
 }
