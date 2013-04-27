@@ -16,5 +16,11 @@ Route::get('/', function() {
 });
 
 Route::get('child', function() {
+
+    View::composer('app.child', function($view)
+    {
+        $view->with('spoon', 'spoons');
+    });
+
     return View::make('app.child');
 });
