@@ -1,7 +1,7 @@
 {
 	"require": {
 		"laravel/framework": "4.0.*",
-		"rcrowe/twigbridge": "0.1.*"
+		"rcrowe/twigbridge": "0.2.*"
 	},
 	"autoload": {
 		"classmap": [
